@@ -30,12 +30,12 @@ I hope that you get hooked on coding!
 REQUIREMENT My calculator is broken. When I try to do 5 + 5, it returns 55.
 */
 //TODO: On the following lines, create a function named add that takes in two parameters that are either strings or numbers and returns the numeric sum
-const add = (a,b) => +a + +b
+
 /*
 REQUIREMENT In my fishing guide service, I use a unique way of calculating tips. I round every guide's tips down to the nearest 10, and give the excess to the boat cleaner.
 */
 //TODO: On the following lines, create a function named roundDownToTens that takes in a positive integer and returns that integer rounded down to the nearest 10
-const roundDownToTens = a => a - a%10
+
 /*
 REQUIREMENT I took out a couple interest only loans to launch this guide service. I think that I'm being overcharged. Help me out! If I just pay the interest amount, what should my monthly payments be? Write a function that takes in the principal and interest rate, and returns the monthly interest-only payment.
 */
