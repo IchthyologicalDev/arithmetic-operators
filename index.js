@@ -1,19 +1,25 @@
 /*
-Welcome to the js exercise template! This paragraph should be changed for
-each exercise. It is intended to give some high level instruction about the 
-exercise goal. The rest of this multi-line comment should be included in every
-exercise.
+Welcome to the arithmetic operators exercise! You'll get to practice writing functions
+that use some common arithmetic operators. If you get stuck, follow the tips on the 
+webpage.
 
-Look through this file for requirements that start with //REQUIREMENT N:
-You will add your code on the line or lines that start with //TODO:
+Look through this file for requirements that start with REQUIREMENT N:
+Be sure to use the function name and order of parameters specified in the TODOs
 
-EXAMPLE:
-//REQUIREMENT 1: Do Ichthyologists study fish, birds, or mammals?
-//TODO: On the following lines, change null to your answer. Make sure that it's a string!
-let ichthyologistFocus = null;
+As an example,
+REQUIREMENT 1: My calculator is broken. When I try to do 5 + 5, it returns 55.
 
-You would change the previous line so that it says: 
-let ichthyologistFocus = 'fish';
+TODO: On the following lines, create a function named 'add' that takes in two parameters
+that are either strings or numbers and returns the numeric sum
+
+EXAMPLE CALL
+add('5', '5') returns 10
+//YOUR FUNCTION GOES BELOW THIS LINE
+function add(x,y) {
+    //your logic would go here
+}
+
+This function would not pass, since it clearly doesn't return the numeric sum
 
 You will occasionally see longer comments (like this one) that will include extra
 instruction, helpful hints, best practices, or other content. 
@@ -23,49 +29,119 @@ You should have the index.html file open in your browser as you work through thi
 exercise. If you aren't sure what this means, you should watch the How to Edit Code 
 video: https://youtu.be/vkWDQzl_x3s before continuing.
 
-I hope that you get hooked on coding!
+Have fun casting strings to numbers when necessary!
 */
 
 /*
-REQUIREMENT My calculator is broken. When I try to do 5 + 5, it returns 55.
+REQUIREMENT 1: My calculator is broken. When I try to do 5 + 5, it returns 55.
+
+TODO: After this comment, create a function named 'add' that takes in two parameters
+that are either strings or numbers and returns the numeric sum
+
+EXAMPLE CALL
+add('5', '5') returns 10
 */
-//TODO: On the following lines, create a function named add that takes in two parameters that are either strings or numbers and returns the numeric sum
+//YOUR FUNCTION GOES BELOW THIS LINE
+
 
 /*
-REQUIREMENT In my fishing guide service, I use a unique way of calculating tips. I round every guide's tips down to the nearest 10, and give the excess to the boat cleaner.
+REQUIREMENT 2: In my fishing guide service, I have a unique way of calculating tips. 
+I round every guide's tips down to the nearest 10, and give the excess to the boat cleaner.
+
+TODO: After this comment, create a function named 'roundDownToTens' that takes in a
+positive integer and returns that integer rounded down to the nearest 10
 */
-//TODO: On the following lines, create a function named roundDownToTens that takes in a positive integer and returns that integer rounded down to the nearest 10
+//YOUR FUNCTION GOES BELOW THIS LINE
+
 
 /*
-REQUIREMENT I took out a couple interest only loans to launch this guide service. I think that I'm being overcharged. Help me out! If I just pay the interest amount, what should my monthly payments be? Write a function that takes in the principal and interest rate, and returns the monthly interest-only payment.
+REQUIREMENT 3: I took out a couple interest only loans to launch this guide service. I
+think that I'm being overcharged. Help me out! If I just pay the interest amount,
+what should my monthly payments be? 
+
+TODO: After this comment, create a function named 'getMonthlyPayment' that takes
+in principal (number) and annual interest rate (decimal) and returns the monthly interest
+payment
+
+EXAMPLE CALL
+getMonthlyPayment(1000, .06) returns 5, since there would be $60 of interest over the year
+Formula: principal times annual interest rate to find total interest for a year. Divide that by 12 
 */
-//TODO: On the following lines, create a function named '' that takes in <> and returns <>
-/*
-REQUIREMENT There's a lot of taxes involved in business. How much am I really paying? Write a function that takes in a single number, and returns the actual tax rate based on the following tax brackets:
-*/
-//TODO: On the following lines, create a function named '' that takes in <> and returns <>
-/*
-REQUIREMENT I like helping out other small business owners. I gave someone $1000 to help launch their pizza company. We haven't worked out the interest rate yet, but they guaranteed that they will pay it back in full 1 year later. In addition to the original $1000, how much interest will this person me? 
-*/
-//TODO: On the following lines, create a function named '' that takes in <> and returns <>
-/*
-REQUIREMENT I hand out coupons for 50% off the next fishing trip to anyone who fails to catch a fish. Prices change every year, so write me a function that calculates the post-coupon cost given an initial price.
-*/
-//TODO: On the following lines, create a function named '' that takes in <> and returns <>
-/*
-REQUIREMENT I have 1 bait bucket per client. I want an equal amount of bait in each bucket at the start of the day. I want to know how much pieces of bait will be left over after placing an equal amount in each bucket. Write a function that takes in a number of buckets and number of pieces of bait, and returns the remainder.
-*/
-//TODO: On the following lines, create a function named '' that takes in <> and returns <>
-/*
-REQUIREMENT I get calls when the fishing heats up in certain areas. I only move to that spot if I can get there in less than 30 minutes. Given a top speed in miles per hour, and a distance in miles, return the number of minutes it will take to reach the destination.
-*/
-//TODO: On the following lines, create a function named '' that takes in <> and returns <>
-/*
-REQUIREMENT The pizza restaurant owner just informed me that they might need to wait longer before paying me back. How much will they owe me? 
-*/
-//TODO: On the following lines, create a function named '' that takes in <> and returns <>
+//YOUR FUNCTION GOES BELOW THIS LINE
+
 
 /*
-You've reached the end of this exercise! If you need more practice with data types, you're in luck.
-You'll use these concepts in every subsequent program you write.
+REQUIREMENT Marginal tax rates can be confusing. What percent am I actually paying?
+
+TODO: After this comment, create a function named 'getTaxRate' that takes in income
+(number) and tax paid (number) and returns the average tax rate as a percent
+
+EXAMPLE CALL
+getTaxRate(50000, 7000) returns 14 since 7000/50000 is .14, which we multiply by 100 for the percentage
+*/
+//YOUR FUNCTION GOES BELOW THIS LINE
+
+
+/*
+REQUIREMENT I like helping out other small business owners. I am loaning between 
+$500 and $2000 to help someone launch their pizza company. We haven't worked out
+the interest rate yet, but they guaranteed that they will pay it back in full 1 
+year later. I need an IOU message from this person.
+
+TODO: After this comment, create a function named 'makeIOweYou' that takes in
+a loan amount (number) and interest rate (decimal), and returns a message that says
+"I owe you $<amount>", where <amount> represents the total due after a year.
+
+EXAMPLE CALL
+makeIOweYou(750, .01) returns "I owe you $757.5"
+makeIOweYou(1200, .02) returns "I owe you $1224"
+*/
+//YOUR FUNCTION GOES BELOW THIS LINE
+
+
+/*
+REQUIREMENT I have 1 bait bucket per client. I want an equal amount of bait in each
+bucket at the start of the day. How many pieces of bait will be left over after 
+placing an equal amount in each bucket?
+
+//TODO: After this comment, create a function named 'getLeftoverBait' that takes
+in the number of pieces of bait (integer) and the number of buckets (integer),
+and returns the number of pieces of bait that would remain (number)
+
+EXAMPLE CALL
+getLeftoverBait(100, 9) returns 1, since the 9 buckets would have 11 pieces each, with 1 leftover
+*/
+//YOUR FUNCTION GOES BELOW THIS LINE
+
+
+/*
+REQUIREMENT I get calls when the fishing heats up in certain areas. Can I make it to
+the new location within 30 minutes?
+
+TODO: After this comment, create a function named getDuration that takes in a velocity
+in miles per hour and distance in miles, and returns the number of minutes the trip will take
+
+EXAMPLE CALL
+getDuration(40, 20) returns 30, since it takes 30 minutes to go 20 miles at 40 mph
+*/
+//YOUR FUNCTION GOES BELOW THIS LINE
+
+
+/*
+REQUIREMENT Many fish populations are dwindling. Assuming that each fish can produce 5 fish 
+per year, how many fish would we have in the future if fish were immortal? 
+
+TODO: After this comment, create a function named getPopulation that takes in a
+starting population (number) and number of years, and returns the future fish population (number)
+
+EXAMPLE CALL
+getPopulation(5,1) returns 30, since 5 fish each had 5 more fish.
+getPopulation(10,2) returns 360, since 10 fish each had 5, then each of those 60 had 5 more.
+*/
+//YOUR FUNCTION GOES BELOW THIS LINE
+
+
+/*
+You've reached the end of this exercise! If you need more practice with arithmetic operations,
+go try them in your console! Many applications will involve some type of arithmetic.
 */
