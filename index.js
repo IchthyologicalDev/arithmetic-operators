@@ -71,7 +71,7 @@ Formula: principal times annual interest rate to find total interest for a year.
 
 
 /*
-REQUIREMENT Marginal tax rates can be confusing. What percent am I actually paying?
+REQUIREMENT 4: Marginal tax rates can be confusing. What percent am I actually paying?
 
 TODO: After this comment, create a function named 'getTaxRate' that takes in income
 (number) and tax paid (number) and returns the average tax rate as a percent
@@ -83,7 +83,7 @@ getTaxRate(50000, 7000) returns 14 since 7000/50000 is .14, which we multiply by
 
 
 /*
-REQUIREMENT I like helping out other small business owners. I am loaning between 
+REQUIREMENT 5: I like helping out other small business owners. I am loaning between 
 $500 and $2000 to help someone launch their pizza company. We haven't worked out
 the interest rate yet, but they guaranteed that they will pay it back in full 1 
 year later. I need an IOU message from this person.
@@ -100,7 +100,7 @@ makeIOweYou(1200, .02) returns "I owe you $1224"
 
 
 /*
-REQUIREMENT I have 1 bait bucket per client. I want an equal amount of bait in each
+REQUIREMENT 6: I have 1 bait bucket per client. I want an equal amount of bait in each
 bucket at the start of the day. How many pieces of bait will be left over after 
 placing an equal amount in each bucket?
 
@@ -115,7 +115,7 @@ getLeftoverBait(100, 9) returns 1, since the 9 buckets would have 11 pieces each
 
 
 /*
-REQUIREMENT I get calls when the fishing heats up in certain areas. Can I make it to
+REQUIREMENT 7: I get calls when the fishing heats up in certain areas. Can I make it to
 the new location within 30 minutes?
 
 TODO: After this comment, create a function named getDuration that takes in a velocity
@@ -128,7 +128,7 @@ getDuration(40, 20) returns 30, since it takes 30 minutes to go 20 miles at 40 m
 
 
 /*
-REQUIREMENT Many fish populations are dwindling. Assuming that each fish can produce 5 fish 
+REQUIREMENT 8: Many fish populations are dwindling. Assuming that each fish can produce 5 fish 
 per year, how many fish would we have in the future if fish were immortal? 
 
 TODO: After this comment, create a function named getPopulation that takes in a
