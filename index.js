@@ -42,6 +42,9 @@ EXAMPLE CALL
 add('5', '5') returns 10
 */
 //YOUR FUNCTION GOES BELOW THIS LINE
+function add(x,y) {
+    return +x + +y;
+}
 
 
 /*
@@ -52,6 +55,9 @@ TODO: After this comment, create a function named 'roundDownToTens' that takes i
 positive integer and returns that integer rounded down to the nearest 10
 */
 //YOUR FUNCTION GOES BELOW THIS LINE
+function roundDownToTens(x) {
+    return x - x % 10;
+}
 
 
 /*
@@ -68,7 +74,9 @@ getMonthlyPayment(1000, .06) returns 5, since there would be $60 of interest ove
 Formula: principal times annual interest rate to find total interest for a year. Divide that by 12 
 */
 //YOUR FUNCTION GOES BELOW THIS LINE
-
+function getMonthlyPayment(principal, rate) {
+    return (principal * rate) / 12;
+}
 
 /*
 REQUIREMENT 4: Marginal tax rates can be confusing. What percent am I actually paying?
@@ -80,6 +88,9 @@ EXAMPLE CALL
 getTaxRate(50000, 7000) returns 14 since 7000/50000 is .14, which we multiply by 100 for the percentage
 */
 //YOUR FUNCTION GOES BELOW THIS LINE
+function getTaxRate(income, taxPaid) {
+    return (taxPaid / income) * 100;
+}
 
 
 /*
@@ -97,7 +108,10 @@ makeIOweYou(750, .01) returns "I owe you $757.5"
 makeIOweYou(1200, .02) returns "I owe you $1224"
 */
 //YOUR FUNCTION GOES BELOW THIS LINE
-
+function makeIOweYou(principal, rate) {
+    const totalOwed = principal + principal * rate;
+    return "I owe you $" + totalOwed;
+}
 
 /*
 REQUIREMENT 6: I have 1 bait bucket per client. I want an equal amount of bait in each
@@ -112,6 +126,9 @@ EXAMPLE CALL
 getLeftoverBait(100, 9) returns 1, since the 9 buckets would have 11 pieces each, with 1 leftover
 */
 //YOUR FUNCTION GOES BELOW THIS LINE
+function getLeftoverBait(baitQuantity, buckets) {
+    return baitQuantity % buckets;
+}
 
 
 /*
@@ -125,6 +142,9 @@ EXAMPLE CALL
 getDuration(40, 20) returns 30, since it takes 30 minutes to go 20 miles at 40 mph
 */
 //YOUR FUNCTION GOES BELOW THIS LINE
+function getDuration(velocity, distance) {
+   return (distance / velocity) * 60;
+}
 
 
 /*
@@ -139,7 +159,9 @@ getPopulation(5,1) returns 30, since 5 fish each had 5 more fish.
 getPopulation(10,2) returns 360, since 10 fish each had 5, then each of those 60 had 5 more.
 */
 //YOUR FUNCTION GOES BELOW THIS LINE
-
+function getPopulation(start, years) {
+    return start * (6)**years;
+}
 
 /*
 You've reached the end of this exercise! If you need more practice with arithmetic operations,
