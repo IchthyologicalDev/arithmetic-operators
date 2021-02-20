@@ -47,6 +47,7 @@ add('5', '5') returns 10
 /*
 REQUIREMENT 2: In my fishing guide service, I have a unique way of calculating tips. 
 I round every guide's tips down to the nearest 10, and give the excess to the boat cleaner.
+Can you help me round down?
 
 TODO: After this comment, create a function named 'roundDownToTens' that takes in a
 positive integer and returns that integer rounded down to the nearest 10
