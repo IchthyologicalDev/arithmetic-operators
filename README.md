@@ -1,10 +1,9 @@
-# JS TEMPLATE Practice Exercise
-Test out your knowledge of primitive data types in JavaScript! 
+# JS Arithmetic Operators Practice Exercise
+Test out your knowledge of arithmetic operators in JavaScript! 
 
 ## Prerequisite Knowledge
-- EDIT THIS AS APPROPRIATE
-- Opening an HTML file in your browser
-- Editing text in a text editor
+- Function Syntax
+- Arithmetic Operators
 - JavaScript's Primitive Data Types
 
 ## Usage
@@ -14,7 +13,7 @@ Test out your knowledge of primitive data types in JavaScript!
 1. Follow the instructions on that page to get started
 
 ## Stuck?
-- You can find a video walkthrough of this exercise here: 
+- You can find a video walkthrough of this exercise [here](https://youtu.be/evAzvK6iqdY)
 - You can also find a solution by checking out the `solution` branch
 
 ## Contributors
